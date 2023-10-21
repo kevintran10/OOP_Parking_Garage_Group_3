@@ -1,11 +1,9 @@
 # Adrienne's Code Start
 class parkingGarage():
-    def __init__(self):
-        pass
-
-# - tickets -> list
-# - parkingSpaces -> list
-# - currentTicket -> dictionary
+    def __init__(self, tickets, parkingSpaces, currentTicket):
+        self.tickets = []
+        self.parkingSpaces = []
+        self.currentTicket = {}
 
 def takeTicket(self):
     pass
@@ -27,7 +25,7 @@ def payment(self):
 
 # Kevin's Code End
 
-Oop = parkingGarage()
+Oop = parkingGarage('tickets', 'parkingSpaces', 'currentTicket')
 Oop.runner()
 
 
