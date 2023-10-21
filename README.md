@@ -4,7 +4,7 @@ Your assignment for today is to create a parking garage class to get more famili
 Each of you should share/switch these roles every 30mins-1hr -- Or you may elect to switch "drivers" after creating specific methods of the class.
 
 The Initial Driver needs to Make sure to:
-download the files below, create a local folder for the project,  create a github repository, commit the inital files,  share the link
+download the files below, create a local folder for the project,  create a github repository, commit the initial files,  share the link
 
 Both navigators should then:
 fork the code, clone it.
@@ -15,7 +15,7 @@ When code has been updated, you will need to pull down the changes.
 
 Here's an article on doing so -- https://stackoverflow.com/questions/3903817/pull-new-updates-from-original-github-repository-into-forked-github-repository
 
-Your parking gargage class should have the following methods:
+Your parking garage class should have the following methods:
 - takeTicket
    - This should decrease the amount of tickets available by 1
    - This should decrease the amount of parkingSpaces available by 1
@@ -40,5 +40,15 @@ NOTE: Use VSCode for this project starting with the following files below. Also,
 When the project is completed, commit the final changes, sync all pull requests, and each member should submit their respective GitHub links(though the code in each should be the same)
 
 
-###### List group responsiblities below:
-###### Provide name and approxamite line numbers where each person wrote their code
+###### List group responsibilities below:
+
+Adrienne:
+Initial driver, downloaded files, created a local folder, created the github repository, committed the initial files and shared the link with the group.
+
+
+Kevin:
+
+
+Danny:
+
+###### Provide name and approximate line numbers where each person wrote their code
