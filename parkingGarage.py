@@ -1,6 +1,7 @@
 # Adrienne's Code Start
-def parkingGarage():
-    pass
+class parkingGarage():
+    def __init__(self):
+        pass
 
 # - tickets -> list
 # - parkingSpaces -> list
@@ -26,7 +27,8 @@ def payment(self):
 
 # Kevin's Code End
 
-
+Oop = parkingGarage()
+Oop.runner()
 
 
 # Danny's Code Start
