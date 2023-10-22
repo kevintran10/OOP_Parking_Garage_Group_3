@@ -66,6 +66,20 @@ def leaveGarage(self):
             print('You must pay before EXITING!')
 
 
+def runner(self):
+    while True:
+        choose = input('What would you like to do? (take, pay or leave)').lower()
+        if choose == 'take':
+            self.takeTicket()
+        
+        elif choose == 'pay':
+            self.payforParking()
+
+        elif choose == 'leave':
+            break
+
+        else:
+            print('Thank you, have a nice day!')
 # def payment(self):
 #     pass
 # # Adrienne's Code End
