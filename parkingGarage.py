@@ -1,6 +1,6 @@
 # Adrienne's Code Start
 class parkingGarage():
-    def __init__(self, tickets=10, parkingSpaces=10, currentTicket=0):
+    def __init__(self, tickets=10, parkingSpaces=10, currentTicket='not paid'):
         self.tickets = tickets
         self.parkingSpaces = parkingSpaces
         self.currentTicket = currentTicket
@@ -16,7 +16,7 @@ def takeTicket(self):
             # self.currentTicket += 1???
             # print('Parking is $5/hour')
 
-        # I feel like there should be an elif here
+        # I feel like there should be an elif here...below
         elif tic_booth == int(1):
             self.ticket == 0 & self.parkSpaces == 0
             print('Sorry the parking garage is FULL.')
@@ -29,13 +29,13 @@ def payForParking(self):
     pay_for_ticket = input('Your total is $25. Hit "Yes" to pay now or "No" to pay later.').lower()
     while True:   # readME says use true dictionary
         if pay_for_ticket == 'yes':
-            self.currentTicket == ('Paid')
+            self.currentTicket = ('Paid')
             print('Thank you, your ticket is now paid and you will have 15 minutes to exit the parking garage.')
         elif pay_for_ticket == 'no':
-            self.currentTicket == ('Not paid')
+            self.currentTicket = ('Not paid')
             print('Please pay when exiting the parking garage.')
         else:
-            self.currentTicket == ('Not paid')
+            self.currentTicket = ('Not paid')
             print('Please pay before leaving the parking garage.')
 
     # park_cost = int(input(''))
@@ -66,34 +66,34 @@ def leaveGarage(self):
             print('You must pay before EXITING!')
 
 
-def payment(self):
-    pass
-# Adrienne's Code End
+# def payment(self):
+#     pass
+# # Adrienne's Code End
 
 
 
 
-# Kevin's Code Start
-# class kev_navigator(): ??
+# # Kevin's Code Start
+# # class kev_navigator(): ??
 
-    def takeTicket(self):
-        # self.tickets = []
+#     def takeTicket(self):
+#         # self.tickets = []
         
-    def payForParking(self):
+#     def payForParking(self):
         
 
-    def leaveGarage(self):
+#     def leaveGarage(self):
       
 
-    def payment(self):
+#     def payment(self):
       
 
-# Kevin's Code End
+# # Kevin's Code End
 
-Oop = parkingGarage('tickets', 'parkingSpaces', 'currentTicket')
-Oop.runner()
+# Oop = parkingGarage('tickets', 'parkingSpaces', 'currentTicket')
+# Oop.runner()
 
 
-# Danny's Code Start
+# # Danny's Code Start
 
-# Danny's Code End
+# # Danny's Code End
