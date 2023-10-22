@@ -8,18 +8,19 @@ class parkingGarage():
     
     def runner(self):
         while True:
-            choose = input('What would you like to do? (take ticket, pay, leave) ').lower()
-
-            if choose == 'take':
-                self.takeTicket()
-
-            elif choose == 'pay':
-                self.payForParking()
-
-            elif choose == 'leave':
+            choose = input('What would you like to do? (take ticket, pay, leave, quit) ').lower()
+            if choose == 'quit':
+                print('Have a nice day! Please exit the garage to the ;eft leave. ')
                 break
+            if choose == 'take':
+                self.takeTicket() 
+            if choose == 'pay':
+                self.payForParking()
+            if choose == 'leave':
+                self.leaveGarage()
             else:
-                print('Have a nice day!')
+                print('Invalid entry, please make a choice.')
+               
 
     
     def takeTicket(self):
@@ -32,30 +33,19 @@ class parkingGarage():
 
 
     def payForParking(self):
-        pay_now = int(input('How may hours would you like to park? '))
-        pay_later = input()
-        # park_hours = int(input(''))
-        if pay_now == True:
-            print('Please pay $5')
-
-
-            elif park_hours > 1:
-            print('Please pay ')
-            pass
+        pay_now = int(input('Please enter $15 to pay for your day parking '))
+       
+        while True:
+            if pay_now == 15:
+                print('Thank you for paying your ticket, you have 15 minuets to exit the garage.')
+                self.currentTicket = True
+                break
+            elif pay_now < 15:
+                pay_now = int(input('Invalid entry please pay for your parking. Please enter $15 to pay for your day parking. '))
         
 
 
-    def leaveGarage(self):
-        if park_cost == 5:
-            print('Thank you for paying your ticket, have a nice day!')
-        elif
-            self.currentTicket == 0:
-            print('Please pay parking ticket.')
-        else:
-            print('Thank you, have a nice day!')
-            self.tickets += 1
-            self.parkingSpaces += 1
-            self.currentTicket[tic_booth] = tic_booth
+   
 
 
 
@@ -63,6 +53,6 @@ class parkingGarage():
 
 
 
-Oop = parkingGarage('tickets', 'parkingSpaces', 'currentTicket')
+Oop = parkingGarage()
 Oop.runner()
 
