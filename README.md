@@ -45,6 +45,7 @@ When the project is completed, commit the final changes, sync all pull requests,
 Adrienne:
 Initial driver, downloaded files, created a local folder, created the github repository, committed the initial files and shared the link with the group.
 
+Added new method to count spaces.
 
 Kevin:
 wrote a sample code of takeTicket, payforPark and leave garage to see if the code makes sense. 
