@@ -80,10 +80,10 @@ def runner(self):
 
         else:
             print('Thank you, have a nice day!')
-# def payment(self):
-#     pass
-# # Adrienne's Code End
 
+
+oop = parkingGarage()
+oop.runner()
 
 
 

@@ -47,7 +47,8 @@ Initial driver, downloaded files, created a local folder, created the github rep
 
 
 Kevin:
-wrote a sample code of takeTicket, payforPark and leave garage to see if the code makes sense. 
+wrote a sample code of takeTicket, payforPark and leave garage to see if the code makes sense. Worked together on call with Adrienne and Danny to try and figure out some
+coding to make our code works properly.
 
 Danny:
 
