@@ -48,8 +48,7 @@ Wrote the initial class function and runner function and helped write the takeTi
 Added a new method showSpaces to count spaces, edited the grammar, and updated existing loops to run in better order.
 
 Kevin:
-wrote a sample code of takeTicket, payforPark and leave garage to see if the code makes sense. Worked together on call with Adrienne and Danny to try and figure out some
-coding to make our code works properly.
+wrote a sample code of takeTicket, payforPark and leave garage to see if the code makes sense. Worked together on call with Adrienne and Danny to try and figure out some coding to make our code works properly. Contacted group via Slack/Discord to figure out times to work on the project together.
 
 Danny:
 
