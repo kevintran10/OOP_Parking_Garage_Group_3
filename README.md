@@ -43,10 +43,9 @@ When the project is completed, commit the final changes, sync all pull requests,
 ###### List group responsibilities below:
 
 Adrienne:
-Initial driver, downloaded files, created a local folder, created the github repository, committed the initial files and shared the link with the group.
+The initial driver, downloaded files, created a local folder, created the github repository, committed the initial files and shared the link with the group.
 Wrote the initial class function and runner function and helped write the takeTicket, payforParking, and leaveGarage methods.
-
-Added a new method to count spaces, edited the grammar and updated existing loops to run better order.
+Added a new method showSpaces to count spaces, edited the grammar, and updated existing loops to run in better order.
 
 Kevin:
 wrote a sample code of takeTicket, payforPark and leave garage to see if the code makes sense. 
