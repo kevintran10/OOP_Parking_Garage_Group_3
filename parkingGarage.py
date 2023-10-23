@@ -21,6 +21,7 @@ class ParkingGarage():
                 self.leaveGarage()
             else:
                 print('Invalid entry, please make another choice.')
+
     
     def showSpaces(self):
         open_spaces = int(input('Press 1 to see how may open spaces.: '))
@@ -75,10 +76,8 @@ class ParkingGarage():
             elif pay_status == 15:
                 self.currentTicket == False
                 print('Please enter 15 to pay for your parking ticket.: ')
-               
+                break
     
-            
- 
 Oop = ParkingGarage() 
 Oop.runner()
 
