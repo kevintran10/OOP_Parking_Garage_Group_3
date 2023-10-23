@@ -44,6 +44,7 @@ When the project is completed, commit the final changes, sync all pull requests,
 
 Adrienne:
 Initial driver, downloaded files, created a local folder, created the github repository, committed the initial files and shared the link with the group.
+Wrote the initial class function and runner function and helped write the takeTicket, payforParking, and leaveGarage methods.
 
 Added new method to count spaces.
 
